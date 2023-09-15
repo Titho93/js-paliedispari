@@ -30,7 +30,7 @@ if(numberValid){
     message = 'Guest win';
   }
 
-  message += `  The Selection is ${pariDispari} the User select ${numberUser} and Guest select ${numberGuest}` ;
+  message += `  Is ${pariDispari} the User select ${numberUser} and Guest select ${numberGuest}` ;
   document.getElementById('output').innerHTML = message;
 }
 

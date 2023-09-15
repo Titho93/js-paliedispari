@@ -13,3 +13,4 @@ const word = prompt('inserisci una parola')
 function reverseWord(word){
 
 
+}
