@@ -21,5 +21,5 @@ if (reverseWord(word)) {
 
 }
 
-// Creare un messaggio
+// 5. Creare un messaggio
   document.getElementById('output').innerHTML = message;
