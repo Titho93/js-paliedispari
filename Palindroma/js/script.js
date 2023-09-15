@@ -9,7 +9,6 @@ let messaggio;
 function reverseWord(word){
   return word === word.split('').reverse().join('');
 } 
-console.log(word)
 
 // 3. Mettere una condizione if 
 if (reverseWord(word)) {
@@ -23,4 +22,4 @@ if (reverseWord(word)) {
 }
 
 // Creare un messaggio
-console.log(message)
+  document.getElementById('output').innerHTML = message;
